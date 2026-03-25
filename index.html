@@ -2,169 +2,227 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>四国旅行計画 2026</title>
     <style>
-        /* UIデザインの定義 */
+        /* === iPhone・ブラウザ向け最適化スタイル === */
         :root {
-            --primary: #007aff;
-            --accent: #ff9500;
-            --bg: #f2f2f7;
+            --primary: #007aff; /* iOS Blue */
+            --accent: #ff9500;  /* Orange */
+            --bg: #f2f2f7;      /* iOS System Background */
             --card: #ffffff;
             --text: #1c1c1e;
+            --border: #d1d1d6;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text);
             margin: 0;
-            line-height: 1.5;
-            padding-bottom: 40px;
+            line-height: 1.6;
+            -webkit-text-size-adjust: 100%;
         }
 
+        /* ヘッダー固定 */
         header {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             position: sticky;
             top: 0;
-            z-index: 100;
-            padding: 15px;
+            z-index: 1000;
+            padding: 16px 0;
             text-align: center;
-            border-bottom: 0.5px solid #ccc;
+            border-bottom: 0.5px solid var(--border);
         }
 
-        h1 { margin: 0; font-size: 1.1rem; font-weight: 700; }
+        h1 { margin: 0; font-size: 17px; font-weight: 600; }
 
+        /* ナビゲーション（タブ） */
         nav {
             display: flex;
             overflow-x: auto;
+            background: #fff;
             padding: 10px;
             gap: 8px;
-            background: #fff;
-            border-bottom: 0.5px solid #ccc;
             position: sticky;
-            top: 50px; /* headerの下に固定 */
-            z-index: 99;
+            top: 51px; /* headerの高さに合わせる */
+            z-index: 999;
+            border-bottom: 0.5px solid var(--border);
+            -webkit-overflow-scrolling: touch;
         }
 
         nav a {
             flex: 0 0 auto;
             padding: 6px 14px;
             background: #e5e5ea;
-            border-radius: 15px;
+            border-radius: 10px;
             text-decoration: none;
-            color: #3a3a3c;
-            font-size: 0.85rem;
-            font-weight: 600;
+            color: var(--text);
+            font-size: 13px;
+            font-weight: 500;
         }
 
-        .container { padding: 16px; }
+        nav a:active { background: var(--primary); color: white; }
+
+        /* コンテンツ容器 */
+        .container { padding: 16px; padding-bottom: 100px; }
 
         section {
             background: var(--card);
             border-radius: 12px;
-            padding: 18px;
+            padding: 20px;
             margin-bottom: 24px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
-        h2 { font-size: 1.25rem; color: var(--primary); margin: 0 0 12px 0; border-bottom: 2px solid var(--primary); padding-bottom: 4px; }
-        h3 { font-size: 0.95rem; color: var(--accent); margin: 18px 0 8px 0; }
-
-        .list-item {
-            padding: 10px 0;
-            border-bottom: 0.5px solid #f0f0f0;
-            font-size: 0.95rem;
+        h2 {
+            font-size: 20px;
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 8px;
+            margin-bottom: 16px;
         }
 
-        .btn {
+        h3 {
+            font-size: 15px;
+            color: #8e8e93;
+            margin: 20px 0 8px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p { margin: 8px 0; font-size: 15px; }
+
+        /* リンクを大きなボタンに */
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        section a[href^="http"] {
             display: block;
             background: #f0f7ff;
-            color: var(--primary);
-            text-align: center;
             padding: 14px;
             border-radius: 10px;
-            text-decoration: none;
+            margin: 10px 0;
+            text-align: center;
             font-weight: 600;
-            margin-top: 12px;
-            border: 1px solid rgba(0,122,255,0.2);
+            border: 1px solid rgba(0,122,255,0.1);
         }
 
-        .btn:active { background: #d0e7ff; }
+        section a[href^="http"]:active {
+            background: #d0e7ff;
+        }
 
-        .time { font-weight: bold; background: #eee; padding: 2px 6px; border-radius: 4px; margin-right: 5px; font-size: 0.85rem; }
+        /* 準備するもの用の装飾 */
+        #prep-section { border-left: 6px solid var(--accent); }
+
+        .time-tag {
+            background: var(--accent);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 6px;
+            font-size: 13px;
+        }
     </style>
 </head>
 <body>
-  <script>
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
-          ? 'dark'
-          : 'default'
+
+<header>
+    <h1>四国旅行計画 2026</h1>
+</header>
+
+<nav>
+    <a href="#prep">準備</a>
+    <a href="#d328">3/28</a>
+    <a href="#d329">3/29</a>
+    <a href="#d330">3/30</a>
+    <a href="#d331">3/31</a>
+</nav>
+
+<div class="container">
+
+    <section id="prep" class="prep-section">
+        <h2 id="prep-title">🎒 準備するもの</h2>
+        <p>✅ 運転向けドリンクとお菓子</p>
+    </section>
+
+    <section id="d328">
+        <h2>3/28 (土)</h2>
+        <h3>🚩 出発・移動</h3>
+        <p><span class="time-tag">06:00</span> 緒川出発</p>
+        <p>緒川～香川市内：約5時間</p>
+
+        <h3>🍴 観光＆昼食 (うどん)</h3>
+        <p>須崎食料品店 / 讃岐うどん海侍 / 長田 in 香の香</p>
+        <a href="https://www.sanukiudon.co.jp/udon/experience.html">さぬき麺業 (体験詳細)</a>
+        <a href="https://www.nakanoya.net/">中野うどん学校</a>
+
+        <h3>🏨 宿泊場所</h3>
+        <a href="https://www.google.com/maps?cid=5143290677156605579&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAEYASAB&hl=ja&gl=US&source=embed">亀の井ホテル 観音寺</a>
+    </section>
+
+    <section id="d329">
+        <h2>3/29 (日)</h2>
+        <h3>🚩 移動</h3>
+        <p><span class="time-tag">09:00</span> 香川観音寺 出発</p>
+        <p>高知市内まで：約1.5時間</p>
+
+        <h3>🎨 観光＆昼食</h3>
+        <a href="https://www.google.com/maps/@33.561509,133.535798,16z?hl=ja&entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D">日曜市場</a>
+        <a href="https://www.google.co.jp/maps/search/%E3%82%84%E3%81%AA%E3%81%9B%E3%81%9F%E3%81%8B%E3%81%97%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0/">やなせたかしミュージアム</a>
+
+        <h3>🍴 夕食</h3>
+        <a href="https://www.hotpepper.jp/strJ003498765/">明神丸はなれ (未予約)</a>
+
+        <h3>🏨 宿泊場所</h3>
+        <a href="https://www.jalan.net/yad369876/">サザンシティホテル</a>
+    </section>
+
+    <section id="d330">
+        <h2>3/30 (月)</h2>
+        <h3>🚩 移動</h3>
+        <p>高地～兵庫：約3.5時間</p>
+        <h3>🍴 夕食</h3>
+        <a href="https://www.kobecook-wb.jp/">業務スーパービュッフェ</a>
+        <h3>🏨 宿泊場所</h3>
+        <a href="http://travel.rakuten.co.jp/HOTEL/181393/181393.html">ザ ロイヤルパーク 神戸三宮</a>
+    </section>
+
+    <section id="d331">
+        <h2>3/31 (火)</h2>
+        <h3>🚩 観光</h3>
+        <a href="https://www.kobe-kagakukan.jp/museum/room6">バンドー神戸青少年科学館</a>
+        <h3>🍴 昼食</h3>
+        <a href="https://www.ikea.com/jp/ja/stores/restaurant/spring-menu-pub6dad9c30/">IKEAレストラン 神戸</a>
+        <h3>🚩 帰路</h3>
+        <p>兵庫～緒川：約2.5時間</p>
+    </section>
+
+</div>
+
+<script>
+    // スムーズスクロール調整（ヘッダーの高さを考慮）
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            const offset = 110; // header + nav の高さ
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        });
     });
-  </script>
-<link rel="stylesheet" href="style.css">
-<h1 id="%E5%9B%9B%E5%9B%BD%E6%97%85%E8%A1%8C%E8%A8%88%E7%94%BB-202632941">四国旅行計画　2026/3/29～4/1</h1>
-<h2 id="%E6%BA%96%E5%82%99%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE">準備するもの</h2>
-<p>運転向けドリンクとお菓子</p>
-<h2 id="%E6%97%85%E7%A8%8B">旅程</h2>
-<h2 id="328-%E5%9C%9F">3/28 (土)</h2>
-<h3 id="%E5%87%BA%E7%99%BA">出発</h3>
-<p><strong>朝6時～</strong></p>
-<h3 id="%E7%A7%BB%E5%8B%95">移動</h3>
-<p>緒川～香川市内：約5時間</p>
-<h3 id="%E8%A6%B3%E5%85%89%EF%BC%86%E6%98%BC%E9%A3%9F">観光＆昼食</h3>
-<p>うどん By ChatGPT
-須崎食料品店
-讃岐うどん海侍
-釜揚げうどん　長田 in 香の香</p>
-<p><a href="https://www.sanukiudon.co.jp/udon/experience.html">さぬき麺業</a>
-(10：00しか枠が無いので無理)
-<a href="https://www.nakanoya.net/">中野うどん学校</a>
-(到着時間が不明なので予約してない→空いてない)</p>
-<h3 id="%E5%AE%BF%E6%B3%8A%E5%A0%B4%E6%89%80">宿泊場所</h3>
-<p><a href="https://www.google.com/maps?cid=5143290677156605579&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAEYASAB&amp;hl=ja&amp;gl=US&amp;source=embed">亀の井ホテル 観音寺</a></p>
-<h2 id="329-%E6%97%A5">3/29 (日)</h2>
-<h3 id="%E6%9C%9D%E9%A3%9F">朝食</h3>
-<p>ホテル内</p>
-<h3 id="%E7%A7%BB%E5%8B%95">移動</h3>
-<p>香川観音寺～高知市内：約1.5時間
-朝市を踏まえると、9時前には出発したい。</p>
-<h3 id="%E8%A6%B3%E5%85%89%EF%BC%86%E6%98%BC%E9%A3%9F">観光＆昼食</h3>
-<p><a href="https://www.google.com/maps/@33.561509,133.535798,16z?hl=ja&amp;entry=ttu&amp;g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D">日曜市場</a></p>
-<p><a href="https://www.google.co.jp/maps/search/%E3%82%84%E3%81%AA%E3%81%9B%E3%81%9F%E3%81%8B%E3%81%97%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0/@33.6474591,133.7817816,17z/data=!3m1!4b1?entry=ttu&amp;g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D">やなせたかしミュージアム</a></p>
-<h3 id="%E5%A4%95%E9%A3%9F">夕食</h3>
-<p><a href="https://www.hotpepper.jp/strJ003498765/?vos=evhppxo0002&amp;pog=mt(p)ti(kwd-82052151754549:loc-96)dv(c)cr(82051454251133)fi()gi(1312819213343168)ci(519952333)lc(268910)nw(o)&amp;msclkid=1cb86e5720d61064b8a10794988fc1aa">明神丸はなれ</a>
-未予約→</p>
-<h3 id="%E5%AE%BF%E6%B3%8A%E5%A0%B4%E6%89%80">宿泊場所</h3>
-<p><a href="https://www.jalan.net/yad369876/plan/?vos=evjlnpo0002&amp;cxlt=n0ljmbjummlalvjf3ay33i2vk2qr&amp;pog=mt_e_kw_kwd-82121057380157:aud-821437322:loc-96_dv_c_cr_82120153947337_gp_1313918790760705_cm_521291859&amp;gclid=316e6f19c137120cbcc106da64931ff7&amp;gclsrc=3p.ds&amp;msclkid=316e6f19c137120cbcc106da64931ff7">サザンシティホテル</a>
-夕飯無し</p>
-<h2 id="330-%E6%9C%88">3/30 (月)</h2>
-<h3 id="%E6%9C%9D%E9%A3%9F">朝食</h3>
-<p>ホテル内</p>
-<h3 id="%E7%A7%BB%E5%8B%95">移動</h3>
-<p>高地～兵庫：約3.5時間</p>
-<h3 id="%E5%A4%95%E9%A3%9F">夕食</h3>
-<p><a href="https://www.kobecook-wb.jp/">業務スーパービュッフェ</a></p>
-<h3 id="%E5%AE%BF%E6%B3%8A%E5%A0%B4%E6%89%80">宿泊場所</h3>
-<p><a href="http://travel.rakuten.co.jp/HOTEL/181393/181393.html?scid=mi_trv_conf_dhbook_002">ザ　ロイヤルパーク　キャンバス　神戸三宮</a>
-夕飯無し</p>
-<h2 id="331-%E7%81%AB">3/31 (火)</h2>
-<h3 id="%E6%9C%9D%E9%A3%9F">朝食</h3>
-<p>ホテル内</p>
-<h3 id="%E7%A7%BB%E5%8B%95%E8%A6%B3%E5%85%89">移動&amp;観光</h3>
-<p>ホテル→科学館：15分
-<a href="https://www.kobe-kagakukan.jp/museum/room6">バンドー神戸青少年科学館</a>
-(陽さんが食いついてるの確認)</p>
-<h3 id="%E6%98%BC%E9%A3%9F">昼食</h3>
-<p><a href="https://www.ikea.com/jp/ja/stores/restaurant/spring-menu-pub6dad9c30/">IKEAレストラン 神戸</a>
-　科学館から徒歩10分→昼ごはん食べ次第の出発。</p>
-<h3 id="%E7%A7%BB%E5%8B%95">移動</h3>
-<p>兵庫～緒川：約2.5時間</p>
-<h3 id="%E5%A4%95%E9%A3%9F">夕食</h3>
-<p>帰り道で</p>
+</script>
 
 </body>
 </html>
