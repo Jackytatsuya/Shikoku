@@ -131,6 +131,61 @@
         }
     </style>
 </head>
+
+
+
+
+
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
 <body>
   <script>
     mermaid.initialize({
@@ -149,12 +204,18 @@
 <h3 id="%E5%87%BA%E7%99%BA">出発</h3>
 <p><strong>朝6時～</strong></p>
 <h3 id="%E7%A7%BB%E5%8B%95">移動</h3>
-<p>緒川～香川市内：約5時間</p>
+<p>緒川～淡路島：約3.5時間　@神戸淡路鳴門自動車道経由
+緒川～香川市内：約5時間<br>
+6時出発で、12時過ぎに到着。うどん屋さんとしてはギリギリ。<br>
+淡路サービスエリア (下り)で休憩
+淡路ハイウェイオアシスもあるので、程よいはず。
+淡路島SA～うどん屋：2時間
+→鳴門うどんも食べるか？</p>
 <h3 id="%E8%A6%B3%E5%85%89%EF%BC%86%E6%98%BC%E9%A3%9F">観光＆昼食</h3>
-<p>うどん By ChatGPT<br>
-須崎食料品店<br>
-讃岐うどん海侍<br>
-釜揚げうどん　長田 in 香の香</p>
+<h4 id="%E3%81%86%E3%81%A9%E3%82%93-by-chatgpt">うどん By ChatGPT</h4>
+<p>須崎食料品店  　9時00分～11時30
+讃岐うどん海侍  9時00分～14時00分
+釜揚げうどん　長田 in 香の香  9時00分～15時00分</p>
 <p><a href="https://www.sanukiudon.co.jp/udon/experience.html">さぬき麺業</a><br>
 (10：00しか枠が無いので無理)<br>
 <a href="https://www.nakanoya.net/">中野うどん学校</a><br>
@@ -199,8 +260,7 @@
 <h3 id="%E7%A7%BB%E5%8B%95">移動</h3>
 <p>兵庫～緒川：約2.5時間</p>
 <h3 id="%E5%A4%95%E9%A3%9F">夕食</h3>
-<p>帰り道で</p>
+<p>帰り道で。、高速降りて王将か？</p>
 
 </body>
-
 </html>
