@@ -7,8 +7,8 @@
 ✅ 着替え(2泊分でもOK。途中でコインランドリー使える)
 ✅ ベビーカー
 ✅ 運転時間が長いので、車内で退屈しないグッズ
-✅ ベビーカー
-
+✅ クッション系
+✅ 
 ---
 
 ## 3/28 (土)
@@ -45,7 +45,7 @@
 [亀の井ホテル 観音寺](https://www.google.com/maps?cid=5143290677156605579&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAEYASAB&hl=ja&gl=US&source=embed)
 
 ### 🍴 夕食
-
+ホテル
 
 ## 3/29 (日)
 
@@ -64,14 +64,14 @@
  
  [日曜市場](https://www.google.com/maps/@33.561509,133.535798,16z?hl=ja&entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D)  
 
-駐車場～やなせたかし記念館：50min
- [やなせたかしミュージアム](https://www.google.co.jp/maps/search/%E3%82%84%E3%81%AA%E3%81%9B%E3%81%9F%E3%81%8B%E3%81%97%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0/@33.6474591,133.7817816,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D)  
+[🦪高知ひろめ市場](https://hirome.co.jp/)
 
 
 ### 🍴 夕食
  ホテル～飲食店：30min、タクシー3000円
  [🐡明神丸はなれ](https://www.hotpepper.jp/strJ003498765/?vos=evhppxo0002&pog=mt(p)ti(kwd-82052151754549:loc-96)dv(c)cr(82051454251133)fi()gi(1312819213343168)ci(519952333)lc(268910)nw(o)&msclkid=1cb86e5720d61064b8a10794988fc1aa)
- 未予約→
+ 未予約
+ ホテル近くにする？？
  
 ### 🏨 宿泊場所
 やなせたかし記念館～ホテル：35min
@@ -89,7 +89,9 @@
 高知～兵庫：約3.5時間
 
 ### 🍴 観光＆昼食
-[🦪高知ひろめ市場](https://hirome.co.jp/)
+
+ [やなせたかしミュージアム](https://www.google.co.jp/maps/search/%E3%82%84%E3%81%AA%E3%81%9B%E3%81%9F%E3%81%8B%E3%81%97%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0/@33.6474591,133.7817816,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D)  
+
 ・高知城
 [高知歴史博物館](https://www.kochi-johaku.jp/exhibition_floor/#corner)
 単純に、ひろめ市場近くのアーケードを見るだけでも楽しいか？
