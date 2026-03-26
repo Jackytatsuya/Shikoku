@@ -1,0 +1,86 @@
+/* 全体の背景とフォント設定 */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+    line-height: 1.6;
+    color: #444;
+    background-color: #f8f9fa;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* メインタイトル：四国旅行計画 */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 4px solid #3498db;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    background: linear-gradient(transparent 80%, #e3f2fd 0%);
+}
+
+/* 日付セクション：3/28 (土) など */
+h2 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* 項目見出し：出発、移動、観光など */
+h3 {
+    border-left: 5px solid #ff7f50;
+    padding-left: 15px;
+    margin-top: 30px;
+    color: #e67e22;
+    font-size: 1.2em;
+}
+
+/* リストのデザイン */
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+li {
+    background: white;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+/* リンクをおしゃれなボタン風に */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #ff7f50;
+    text-decoration: underline;
+}
+
+/* 強調テキスト */
+strong {
+    color: #d35400;
+}
+
+/* 準備するものセクションの装飾 */
+h2:first-of-type + ul li {
+    background-color: #fff9db;
+    border-left: 5px solid #f1c40f;
+}
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h2 {
+        font-size:
