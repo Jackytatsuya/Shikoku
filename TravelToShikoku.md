@@ -55,20 +55,27 @@
  ⏰ **09:00** 香川観音寺 出発
  高知市内まで：約1.5時間
  朝市を踏まえると、9時前には出発したい。
+ ホテルと日曜市場（追手筋近く）が離れているので、市場近くの駐車場に止める。
+
+### 🅿️ 駐車場
+ [有力駐車場-パークダイセイ 廿代町第６](https://jp.parkopedia.com/parking/carpark/%E3%83%91%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A4%E3%82%BB%E3%82%A4%E5%BB%BF%E4%BB%A3%E7%94%BA%E7%AC%AC6/%E9%AB%98%E7%9F%A5%E5%B8%82/%E9%AB%98%E7%9F%A5%E5%B8%82/?arriving=202603261600&leaving=202603261800)
 
 ### 🎨 観光＆昼食
  
  [日曜市場](https://www.google.com/maps/@33.561509,133.535798,16z?hl=ja&entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D)  
 
-
+駐車場～やなせたかし記念館：50min
  [やなせたかしミュージアム](https://www.google.co.jp/maps/search/%E3%82%84%E3%81%AA%E3%81%9B%E3%81%9F%E3%81%8B%E3%81%97%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0/@33.6474591,133.7817816,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D)  
 
 
 ### 🍴 夕食
+ ホテル～飲食店：30min、タクシー3000円
  [🐡明神丸はなれ](https://www.hotpepper.jp/strJ003498765/?vos=evhppxo0002&pog=mt(p)ti(kwd-82052151754549:loc-96)dv(c)cr(82051454251133)fi()gi(1312819213343168)ci(519952333)lc(268910)nw(o)&msclkid=1cb86e5720d61064b8a10794988fc1aa)
  未予約→
  
 ### 🏨 宿泊場所
+やなせたかし記念館～ホテル：35min
+
 [サザンシティホテル](https://www.jalan.net/yad369876/plan/?vos=evjlnpo0002&cxlt=n0ljmbjummlalvjf3ay33i2vk2qr&pog=mt_e_kw_kwd-82121057380157:aud-821437322:loc-96_dv_c_cr_82120153947337_gp_1313918790760705_cm_521291859&gclid=316e6f19c137120cbcc106da64931ff7&gclsrc=3p.ds&msclkid=316e6f19c137120cbcc106da64931ff7)
 夕飯無し
 駐車場有り
@@ -79,7 +86,7 @@
  ホテル内
 ### 🚩 出発・移動
 9時ころの出発でOK
-高知～兵庫：約3.5時間w
+高知～兵庫：約3.5時間
 
 ### 🍴 観光＆昼食
 [🦪高知ひろめ市場](https://hirome.co.jp/)
