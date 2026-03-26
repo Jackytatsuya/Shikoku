@@ -26,14 +26,16 @@
 
 ### 🍴 観光＆昼食 (うどん)
  須崎食料品店   9時00分～11時30
- [🍜1](https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2)
- 讃岐うどん海侍 9時00分～14時00分
-  [🍜2](https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2)
- 釜揚げうどん 長田 in 香の香    9時00分～14時00分
-  [🍜3](https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2)
+ [🍜　須崎食料品店](https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2)
 
+ 讃岐うどん海侍 9時00分～14時00分
+  [🍜讃岐うどん海侍](https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2)
+ 釜揚げうどん 長田 in 香の香    9時00分～14時00分
+  [🍜釜揚げうどん](https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2)
+ さぬき麺業
  [さぬき麺業](https://www.sanukiudon.co.jp/udon/experience.html)
  (10：00しか枠が無いので無理)
+ 中野うどん学校
  [中野うどん学校](https://www.nakanoya.net/)
  (到着時間が不明なので予約してない→空いてない)
 
@@ -78,6 +80,8 @@
 高知～兵庫：約3.5時間
 
 ### 🍴 観光＆昼食 (うどん)
+鳴門うどんを食べるか？
+高知の市場に行ってから、移動するか？
 
 ### 🍴 夕食
  [業務スーパービュッフェ](https://www.kobecook-wb.jp/)
