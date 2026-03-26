@@ -8,7 +8,6 @@
 ✅ ベビーカー
 ✅ 運転時間が長いので、車内で退屈しないグッズ
 ✅ クッション系
-✅ 
 ---
 
 ## 3/28 (土)
@@ -74,7 +73,6 @@
  ホテル近くにする？？
  
 ### 🏨 宿泊場所
-やなせたかし記念館～ホテル：35min
 
 [サザンシティホテル](https://www.jalan.net/yad369876/plan/?vos=evjlnpo0002&cxlt=n0ljmbjummlalvjf3ay33i2vk2qr&pog=mt_e_kw_kwd-82121057380157:aud-821437322:loc-96_dv_c_cr_82120153947337_gp_1313918790760705_cm_521291859&gclid=316e6f19c137120cbcc106da64931ff7&gclsrc=3p.ds&msclkid=316e6f19c137120cbcc106da64931ff7)
 夕飯無し
@@ -86,6 +84,7 @@
  ホテル内
 ### 🚩 出発・移動
 9時ころの出発でOK
+ホテル～やなせたかし記念館：35min
 高知～兵庫：約3.5時間
 
 ### 🍴 観光＆昼食
@@ -98,7 +97,7 @@
 
 ### 🍴 夕食
 [業務スーパービュッフェ](https://www.kobecook-wb.jp/)
-
+[神戸中華街：南京町]
 ### 🏨 宿泊場所
 [ザ　ロイヤルパーク　キャンバス　神戸三宮](http://travel.rakuten.co.jp/HOTEL/181393/181393.html?scid=mi_trv_conf_dhbook_002)
 夕飯無し
@@ -133,13 +132,16 @@
  駐車場が無いので、ホテルに留めておくか、
  (陽さんが食いついてるの確認済み)  
 
+[アンパンマン神戸]()
+
 [タイムズポートアイランド第５](https://times-info.net/P28-hyogo/C110/F9846831a87f961ece574d69034ff23236fb2fbee_4f20d833838a6e5eb70e55811ae36a2f/SC00000001-max_fee/)
 
 ### 🍴 昼食
  [IKEAレストラン 神戸](https://www.ikea.com/jp/ja/stores/restaurant/spring-menu-pub6dad9c30/)  
  科学館から徒歩10分→昼ごはん食べ次第の出発。
  14時出発でもOK
-
+[業務スーパービュッフェ](https://www.kobecook-wb.jp/)
+ 
 ### 🚩 帰路
 兵庫～緒川：約2.5時間
 夕飯は帰り道で.高速降りて王将か？
