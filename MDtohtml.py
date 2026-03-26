@@ -38,11 +38,18 @@ section {
 h2 { font-size: 20px; color: var(--primary); margin: 0 0 16px 0; border-bottom: 2px solid var(--primary); padding-bottom: 8px; }
 h3 { font-size: 15px; color: #8e8e93; margin: 20px 0 8px 0; text-transform: uppercase; }
 p, li { white-space: pre-wrap; margin: 8px 0; font-size: 15px; }
+
 /* リンクを大きなボタンに自動変換 */
 section a[href^="http"] {
-    display: block; background: #f0f7ff; padding: 14px; border-radius: 10px;
-    margin: 10px 0; text-align: center; font-weight: 600; color: var(--primary);
-    text-decoration: none; border: 1px solid rgba(0,122,255,0.1);
+    display: block;
+    background: #f0f7ff;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 2px 0; /* 上下の隙間を大幅にカット */
+    padding: 10px; /* ついでにボタン内の上下幅も少し詰めるとさらにスッキリします */
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgba(0,122,255,0.1);
 }
 .time-tag {
     background: var(--accent); color: white; padding: 2px 6px;

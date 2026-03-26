@@ -36,11 +36,18 @@ section {
 h2 { font-size: 20px; color: var(--primary); margin: 0 0 16px 0; border-bottom: 2px solid var(--primary); padding-bottom: 8px; }
 h3 { font-size: 15px; color: #8e8e93; margin: 20px 0 8px 0; text-transform: uppercase; }
 p, li { white-space: pre-wrap; margin: 8px 0; font-size: 15px; }
+
 /* リンクを大きなボタンに自動変換 */
 section a[href^="http"] {
-    display: block; background: #f0f7ff; padding: 14px; border-radius: 10px;
-    margin: 10px 0; text-align: center; font-weight: 600; color: var(--primary);
-    text-decoration: none; border: 1px solid rgba(0,122,255,0.1);
+    display: block;
+    background: #f0f7ff;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 2px 0; /* 上下の隙間を大幅にカット */
+    padding: 10px; /* ついでにボタン内の上下幅も少し詰めるとさらにスッキリします */
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgba(0,122,255,0.1);
 }
 .time-tag {
     background: var(--accent); color: white; padding: 2px 6px;
@@ -60,7 +67,9 @@ section a[href^="http"] {
         
         <section id="day-1">
             <h2>🎒 準備するもの</h2>
-            <p>✅ 運転向けドリンクとお菓子</p>
+            <p>✅ 運転向けドリンクとお菓子
+✅ 着替え
+✅ ベビーカー</p>
 <hr />
         </section>
         
@@ -73,14 +82,17 @@ section a[href^="http"] {
 <p>緒川～淡路島：約3.5時間　@神戸淡路鳴門自動車道経由
  緒川～香川市内：約5時間<br />
   6時出発で、12時過ぎに到着。うどん屋さんとしてはギリギリ。<br />
- 淡路サービスエリア (下り)で休憩
+ 淡路サービスエリア (下り)までが3.5時間なので休憩としてちょうど？
  淡路ハイウェイオアシスもあるので、程よいはず。
  淡路島SA～うどん屋：2時間
- →鳴門うどんも食べるか？</p>
+ →鳴門うどんも食べるか？帰りにするか。</p>
 <h3>🍴 観光＆昼食 (うどん)</h3>
 <p>須崎食料品店   9時00分～11時30
+ <a href="https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2">🍜1</a>
  讃岐うどん海侍 9時00分～14時00分
- 釜揚げうどん 長田 in 香の香    9時00分～14時00分</p>
+  <a href="https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2">🍜2</a>
+ 釜揚げうどん 長田 in 香の香    9時00分～14時00分
+  <a href="https://tabelog.com/kagawa/A3703/A370303/37000143/?msockid=161e0c6351446b7f2bcd18ed50f36af2">🍜3</a></p>
 <p><a href="https://www.sanukiudon.co.jp/udon/experience.html">さぬき麺業</a>
  (10：00しか枠が無いので無理)
  <a href="https://www.nakanoya.net/">中野うどん学校</a>
